@@ -1,0 +1,29 @@
+body {
+  background-color: #f4f6fc;
+}
+
+#contact {
+  background-color: #1848a0;
+  color: white;
+}
+
+.introduction-text {
+  color: #687eff;
+}
+
+#hello {
+  color: black;
+  font-style: italic;
+}
+
+.about-me{
+  color: #687eff;
+}
+
+.links {
+  color: white;
+}
+
+.links:hover {
+  color: #c7acac;
+}
