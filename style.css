@@ -45,6 +45,18 @@ body {
   color: #687eff;
 }
 
+.project-photo {
+  max-height: 332px;
+}
+
+.card {
+  max-width: 400px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
 #contact {
   background-color: #1848a0;
   color: white;
