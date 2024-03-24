@@ -16,6 +16,30 @@ body {
   font-style: italic;
 }
 
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.button-group button {
+  border-color: #687eff;
+}
+
+.button-group button:hover {
+  color: #687eff;
+  border-color: #687eff;
+}
+
+.button-group button:active {
+  color: #687eff !important;
+  border-color: #687eff !important;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
 .about-me{
   color: #687eff;
 }
