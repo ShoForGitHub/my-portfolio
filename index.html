@@ -12,14 +12,13 @@
   <!-- hero -->
   <section id="hero">
     <div class="px-4 py-5 my-5 text-center">
-      <!-- <img class="d-block mx-auto mb-4" src="./images/blue_circle.svg" alt="logo" width="72" height="57"> -->
       <h1 class="display-5 fw-bold introduction-text"><span id="hello">Hello,</span> I'm Sho!</h1>
       <div class="col-lg-6 mx-auto">
         <p>Make your choice, hire me or refuse me? 😋</p>
       </div>
       <div class="col mx-auto mb-4 button-group">
-        <button type="button" class="btn btn-light mt-5 mb-0 pb-1 introduction-text">Hire me</button>
-        <button type="button" class="btn btn-light mt-5 mb-0 pb-1 introduction-text">Refuse me</button>
+        <button type="button" class="btn btn-light mt-5 mb-0 pb-1 introduction-text hire-me">Hire me</button>
+        <button type="button" class="btn btn-light mt-5 mb-0 pb-1 introduction-text refuse-me">Refuse me</button>
       </div>
     </div>
   </section>
@@ -29,61 +28,22 @@
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./images/suits.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="600" height="450" loading="lazy">
+          <img src="./images/suits.jpg" class="d-block mx-lg-auto img-fluid rounded mt-5 py-2" alt="Bootstrap Themes" width="600" height="450" loading="lazy">
         </div>
         <div class="col-lg-6">
-          <h2 class="display-5 fw-bold lh-1 mb-3 about-me">About Me</h2>
-          <p>
-            I majored in Japanese language at university thanks to ny passion of Japanese anime.<br>
-            In my senior year, I came to Japan via an exchange program and studied Japanese language and literature at Hiroshima University. <br>
-            During my university years, a little experience of learning HTML/CSS brought the joy of creating websites to me. <br>
-            After graduation, I got a job as a SES programmer though with a liberal arts background. In my 2.5 years of working, I mastered C language, SQL and many more.
-        </p>
+          <h2 class="display-5 fw-bold lh-1 mb-3 ps-3 about-me">About Me</h2>
+          <ul>
+            <li>I majored in Japanese language at university thanks to my passion of Japanese anime.</li><br>
+            <li>In my senior year, I came to Japan via an exchange program and studied Japanese language and literature at Hiroshima
+            University.</li><br>
+            <li>During my university years, a little experience of learning HTML/CSS brought the joy of creating websites to me.</li><br>
+            <li>After graduation, I got a job as a SES programmer though with a liberal arts background. In my 2.5 years of working, I mastered C language, SQL and many more.</li>
+        </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- background -->
-  <section id="background">
-    <div class="container col-xxl-8 px-4 py-5">
-      <h2 class="display-5 fw-bold text-center mb-5 pb-5">Background</h2>
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-          </svg>
-          <h3 class="fw-normal text-nowrap">Jiangsu Normal University</h3>
-          <hr/>
-          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
-            column.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 text-center">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-          </svg>
-          <h3 class="fw-normal">Hiroshima University</h3>
-          <hr/>
-          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 text-center">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-          </svg>
-          <h3 class="fw-normal">CAC holdings</h3>
-          <hr/>
-          <p>And lastly this, the third column of representative placeholder content.</p>
-        </div><!-- /.col-lg-4 -->
-      </div>
-    </div>
-  </section>
-  
   <!-- project gallery -->
   <section id="project-galllery">
     <div class="container col-xxl-8 px-4 py-5">
@@ -102,12 +62,13 @@
                 dy=".3em">Coming soon</text>
             </svg>
             <div class="card-body">
+              <h3>Password Generator</h3>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
                 This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Code</button>
                 </div>
               </div>
             </div>
@@ -122,12 +83,13 @@
                 dy=".3em">Coming soon</text>
             </svg>
             <div class="card-body">
+              <h3>Travel Journal</h3>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
                 This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Code</button>
                 </div>
               </div>
             </div>
@@ -142,12 +104,13 @@
                 dy=".3em">Coming soon</text>
             </svg>
             <div class="card-body">
+              <h3>QuizBuzz</h3>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
                 This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Code</button>
                 </div>
               </div>
             </div>
@@ -170,8 +133,12 @@
       <div class="row d-flex">
         <div class="col-lg-4 ms-auto">
             <div class="col d-flex align-items-start mb-1">
-              <div class="d-inline-flex me-3">
-                <img src="./images/lightgray_circle.svg" alt="" height="50">
+              <div class="d-inline-flex me-3 pt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-github"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg>
               </div>
               <div>
                 <p>
@@ -181,8 +148,12 @@
               </div>
             </div>
             <div class="col d-flex align-items-start">
-              <div class="d-inline-flex  me-3">
-                <img src="./images/lightgray_circle.svg" alt="" height="50">
+              <div class="d-inline-flex  me-3 pt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-envelope-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                </svg>
               </div>
               <div>
                 <p>
