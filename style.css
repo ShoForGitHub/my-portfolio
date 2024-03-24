@@ -2,11 +2,6 @@ body {
   background-color: #f4f6fc;
 }
 
-#contact {
-  background-color: #1848a0;
-  color: white;
-}
-
 .introduction-text {
   color: #687eff;
 }
@@ -16,32 +11,42 @@ body {
   font-style: italic;
 }
 
-.button-group {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-.button-group button {
+.refuse-me {
   border-color: #687eff;
 }
 
-.button-group button:hover {
+.refuse-me:hover {
   color: #687eff;
   border-color: #687eff;
 }
 
-.button-group button:active {
+.refuse-me:active {
   color: #687eff !important;
   border-color: #687eff !important;
 }
 
-.reverse {
-  flex-direction: row-reverse;
+.hire-me {
+  background-color: #687eff;
+  border-color: #687eff;
+}
+
+.hire-me:hover {
+  background-color: #5971fd;
+  border-color: #687eff;
+}
+
+.hire-me:active {
+  background-color: #3a56f3 !important;
+  border-color: #687eff !important;
 }
 
 .about-me{
   color: #687eff;
+}
+
+#contact {
+  background-color: #1848a0;
+  color: white;
 }
 
 .links {

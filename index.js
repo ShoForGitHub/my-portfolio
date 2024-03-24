@@ -5,11 +5,11 @@ const refuseMeButton = document.querySelector(".refuse-me")
 const hireMeButton = document.querySelector(".hire-me")
 
 refuseMeButton.addEventListener("mouseover", () => {
-  buttonGroup.classList.toggle("reverse")
+  buttonGroup.classList.toggle("flex-row-reverse")
 })
 
 refuseMeButton.addEventListener("touchstart", () => {
-  buttonGroup.classList.toggle("reverse")
+  buttonGroup.classList.toggle("flex-row-reverse")
 })
 
 hireMeButton.addEventListener("click", () => {
