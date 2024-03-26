@@ -3,12 +3,16 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+#hero {
+  background-color: #1848a0;
+  height: 100dvh;
+}
+
 .introduction-text {
   color: #38b5e7;
 }
 
 #hello {
-  color: black;
   font-style: italic;
 }
 
