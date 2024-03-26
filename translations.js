@@ -1,7 +1,7 @@
 const translations = {
   'sub-title': {
     en: 'Make your choice, hire me or refuse me? 😋',
-    ja: '選べましょう、私を雇うか断るか？ 😋'
+    ja: '選びましょう、私を雇うか断るか？ 😋'
   },
   'hire-me-btn': {
     en: 'Hire me💛',
