@@ -17,12 +17,14 @@ body {
 }
 
 .refuse-me:hover {
-  color: #38b5e7;
+  color: white;
+  background-color: #38b5e7;
   border-color: #38b5e7;
 }
 
 .refuse-me:active {
-  color: #38b5e7 !important;
+  color: white !important;
+  background-color: #2488b0 !important;
   border-color: #38b5e7 !important;
 }
 
@@ -32,12 +34,12 @@ body {
 }
 
 .hire-me:hover {
-  background-color: #5971fd;
+  background-color: #349dc6;
   border-color: #38b5e7;
 }
 
 .hire-me:active {
-  background-color: #3a56f3 !important;
+  background-color: #2488b0 !important;
   border-color: #38b5e7 !important;
 }
 

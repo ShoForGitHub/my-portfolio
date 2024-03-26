@@ -4,8 +4,8 @@ const translations = {
     ja: '選べましょう、私を雇うか断るか？ 😋'
   },
   'hire-me-btn': {
-    en: 'Hire me💜',
-    ja: '雇う💜'
+    en: 'Hire me💛',
+    ja: '雇う💛'
   },
   'refuse-me-btn': {
     en: 'Refuse me',
