@@ -4,7 +4,7 @@ body {
 }
 
 .introduction-text {
-  color: #687eff;
+  color: #38b5e7;
 }
 
 #hello {
@@ -13,36 +13,36 @@ body {
 }
 
 .refuse-me {
-  border-color: #687eff;
+  border-color: #38b5e7;
 }
 
 .refuse-me:hover {
-  color: #687eff;
-  border-color: #687eff;
+  color: #38b5e7;
+  border-color: #38b5e7;
 }
 
 .refuse-me:active {
-  color: #687eff !important;
-  border-color: #687eff !important;
+  color: #38b5e7 !important;
+  border-color: #38b5e7 !important;
 }
 
 .hire-me {
-  background-color: #687eff;
-  border-color: #687eff;
+  background-color: #38b5e7;
+  border-color: #38b5e7;
 }
 
 .hire-me:hover {
   background-color: #5971fd;
-  border-color: #687eff;
+  border-color: #38b5e7;
 }
 
 .hire-me:active {
   background-color: #3a56f3 !important;
-  border-color: #687eff !important;
+  border-color: #38b5e7 !important;
 }
 
 .section-title{
-  color: #687eff;
+  color: #38b5e7;
 }
 
 .project-photo {
