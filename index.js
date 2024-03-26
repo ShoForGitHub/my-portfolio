@@ -22,11 +22,13 @@ refuseMeButton.addEventListener("click", () => {
 englishButton.addEventListener("click", () => {
   selectedLanguage = 'en'
   updateTranslations()
+  changeButtonStyle(englishButton, japaneseButton)
 })
 
 japaneseButton.addEventListener("click", () => {
   selectedLanguage = 'ja'
   updateTranslations()
+  changeButtonStyle(japaneseButton, englishButton)
 })
 
 function reverseButtons() {
@@ -40,4 +42,11 @@ function updateTranslations() {
       element.textContent = translations[id][selectedLanguage]
     }
   })
+}
+
+function changeButtonStyle(primaryButton, secondaryButton) {
+  primaryButton.classList.add("btn-light")
+  primaryButton.classList.remove("btn-outline-light")
+  secondaryButton.classList.add("btn-outline-light")
+  secondaryButton.classList.remove("btn-light")
 }

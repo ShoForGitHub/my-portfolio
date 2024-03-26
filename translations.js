@@ -41,7 +41,7 @@ const translations = {
   },
   'contact-title': {
     en: 'Reach out if you want to create impactful websites together.',
-    ja: '一緒にインパクトのあるウェブサイトを作成しませんか？お気軽にご連絡ください。'
+    ja: '一緒にインパクト抜群なウェブサイトを作成しませんか？'
   },
   'contact-text': {
     en: 'TO SEE MORE OF MY WORKS, VISIT MY GITHUB:',
