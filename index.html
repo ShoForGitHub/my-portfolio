@@ -14,23 +14,32 @@
 </head>
 
 <body>
-  <!-- header -->
-  <header class="p-md-2 p-3 text-bg-dark fixed-top" id="header">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#hero" class="nav-link px-2 text-white">Home</a></li>
-          <li><a href="#about-me" class="nav-link px-2 text-white">About me</a></li>
-          <li><a href="#project-gallery" class="nav-link px-2 text-white">Projects</a></li>
-          <li><a href="#contact" class="nav-link px-2 text-white">Contact</a></li>
-        </ul>
-        <div>
-          <button id="english-btn" type="button" class="btn btn-light me-2">English</button>
-          <button id="japanese-btn" type="button" class="btn btn-outline-light">日本語</button>
-        </div>
+  <!-- navbar -->
+  <nav class="p-md-2 p-3 text-bg-dark fixed-top" id="header">
+    <div class="container d-flex flex-wrap align-items-center justify-content-between">
+      <button class="navbar-toggler d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+          </svg>
+        </span>
+      </button>
+      <ul class="nav flex-column flex-sm-row me-lg-auto mb-2 justify-content-center mb-md-0
+      collapse" id="navbarCollapse">
+        <li><a href="#hero" class="nav-link px-2 text-white">Home</a></li>
+        <li><a href="#about-me" class="nav-link px-2 text-white">About me</a></li>
+        <li><a href="#project-gallery" class="nav-link px-2 text-white">Projects</a></li>
+        <li><a href="#contact" class="nav-link px-2 text-white">Contact</a></li>
+      </ul>
+      <div>
+        <button id="english-btn" type="button" class="btn btn-light me-2">English</button>
+        <button id="japanese-btn" type="button" class="btn btn-outline-light">日本語</button>
       </div>
     </div>
-  </header>
+  </nav>
 
   <!-- hero -->
   <section id="hero">
@@ -177,6 +186,7 @@
     </div>
   </section>
 
+  <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script type="module" src="./index.js"></script>
 </body>
 

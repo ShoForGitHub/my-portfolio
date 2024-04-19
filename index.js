@@ -5,8 +5,14 @@ const refuseMeButton = document.querySelector(".refuse-me")
 const hireMeButton = document.querySelector(".hire-me")
 const englishButton = document.getElementById("english-btn")
 const japaneseButton = document.getElementById("japanese-btn")
+const navbarCollapse = document.getElementById("navbarCollapse")
+const navbarLinks = navbarCollapse.querySelectorAll('li')
+
 let selectedLanguage = 'en'
+
 updateTranslations()
+controlNavbar()
+window.addEventListener("resize", controlNavbar)
 
 refuseMeButton.addEventListener("mouseover", reverseButtons)
 refuseMeButton.addEventListener("touchstart", reverseButtons)
@@ -31,6 +37,14 @@ japaneseButton.addEventListener("click", () => {
   changeButtonStyle(japaneseButton, englishButton)
 })
 
+navbarLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    if (window.innerWidth < 576) {
+      navbarCollapse.classList.remove("show")
+    }
+  })
+})
+
 function reverseButtons() {
   buttonGroup.classList.toggle("flex-row-reverse")
 }
@@ -49,4 +63,14 @@ function changeButtonStyle(primaryButton, secondaryButton) {
   primaryButton.classList.remove("btn-outline-light")
   secondaryButton.classList.add("btn-outline-light")
   secondaryButton.classList.remove("btn-light")
+}
+
+function controlNavbar() {
+  if (window.innerWidth >= 576) {
+    navbarCollapse.classList.add("show")
+    navbarCollapse.classList.remove("navbar-collapse")
+  } else {
+    navbarCollapse.classList.remove("show")
+    navbarCollapse.classList.add("navbar-collapse")
+  }
 }
