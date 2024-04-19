@@ -47,6 +47,7 @@ navbarLinks.forEach(link => {
   link.addEventListener("click", () => {
     if (window.innerWidth < 576) {
       navbarCollapse.classList.remove("show")
+      navbarButtons.classList.remove("mx-auto")
     }
   })
 })
