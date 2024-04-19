@@ -7,13 +7,15 @@ const englishButton = document.getElementById("english-btn")
 const japaneseButton = document.getElementById("japanese-btn")
 const navbarCollapse = document.getElementById("navbarCollapse")
 const navbarLinks = navbarCollapse.querySelectorAll('li')
+const navbarToggler = document.querySelector('.navbar-toggler')
+const navbarButtons = document.getElementById("navbar-buttons")
 
 let selectedLanguage = 'en'
 
 updateTranslations()
 controlNavbar()
-window.addEventListener("resize", controlNavbar)
 
+window.addEventListener("resize", controlNavbar)
 refuseMeButton.addEventListener("mouseover", reverseButtons)
 refuseMeButton.addEventListener("touchstart", reverseButtons)
 
@@ -35,6 +37,10 @@ japaneseButton.addEventListener("click", () => {
   selectedLanguage = 'ja'
   updateTranslations()
   changeButtonStyle(japaneseButton, englishButton)
+})
+
+navbarToggler.addEventListener("click", () => {
+  navbarButtons.classList.toggle("mx-auto")
 })
 
 navbarLinks.forEach(link => {
@@ -66,9 +72,11 @@ function changeButtonStyle(primaryButton, secondaryButton) {
 }
 
 function controlNavbar() {
+  navbarButtons.classList.remove("mx-auto")
   if (window.innerWidth >= 576) {
     navbarCollapse.classList.add("show")
     navbarCollapse.classList.remove("navbar-collapse")
+    
   } else {
     navbarCollapse.classList.remove("show")
     navbarCollapse.classList.add("navbar-collapse")

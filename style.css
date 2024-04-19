@@ -3,11 +3,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-#navbarCollapse.show + div {
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
 #hero {
   background-color: #1848a0;
   height: 100dvh;
