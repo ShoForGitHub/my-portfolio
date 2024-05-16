@@ -25,7 +25,7 @@ const translations = {
   },
   'about-me-li4': {
     en: 'After graduating, despite having a liberal arts background, I obtained a job as an SES programmer. Over the course of 2.5 years in this position, I acquired proficiency in C language, SQL, and various other skills.',
-    ja: '卒業後、文学部の学歴にもかかわらず、SESプログラマーの仕事を得ました。このポジションでの2.5年間の間に、C言語やSQLなどのさまざまなスキルを習得しました。'
+    ja: '卒業後、文学部の学歴にもかかわらず、SESプログラマーの仕事を得ました。このポジションでの2.5年間に、C言語やSQLなどのさまざまなスキルを習得しました。'
   },
   'password-generator-text': {
     en: 'A password generator with optional symbols and numbers, also a "click to copy" feature.',
